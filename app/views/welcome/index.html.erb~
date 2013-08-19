@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Myapp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <%= @user %>
+    <br />
+    <%= @userData %>
+   
+    <!--div data-no-turbolink>
+        <%= link_to 'test', "#", :id => 'lnkid' %>
+    </div-->
+
+</body>
+</html>
